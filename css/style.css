@@ -2,23 +2,15 @@
 reset 
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
-
-
-.container{
-    
-    margin: 0 auto;
-}
-
-
 
 
 /* 
@@ -27,22 +19,14 @@ header
 
 
 
-.header-container{
-    width: 100%;
+.header-container {
     height: 5vh;
     position: relative;
     background-color: black;
-    
-    
 
-    
-}
 
-.button-container {
-    height: 15px;
-   
-    
-   
+
+
 }
 
 
@@ -53,22 +37,21 @@ header
     background-color: #777880;
     position: absolute;
     right: 2%;
-    top: 0;
-    
-    
-    
-    
+
+
+
+
+
 }
 
 .button-header2 {
     color: white;
     background-color: #777880;
     position: absolute;
-    top: 0;
     right: 0;
     display: flex;
 
-    
+
 }
 
 
@@ -79,8 +62,8 @@ main
 
 
 
-.main-container{
-    object-fit: cover;
+.main-container {
+
     height: 85vh;
     display: flex;
     flex-wrap: wrap;
@@ -88,14 +71,14 @@ main
     padding: 100px;
     background-color: black;
     position: relative;
-    
 
-    
-  
+
+
+
 }
 
 .column {
-    
+
     background-image: url("https://picsum.photos/id/237/141/94");
     background-size: cover;
     position: relative;
@@ -103,7 +86,7 @@ main
     margin: 5px;
 }
 
-.button-main{
+.button-main {
     color: white;
     font-size: 8pt;
     background-color: #000000;
@@ -120,67 +103,50 @@ footer
 */
 
 
-.footer-container{
-    height: 15vh;
-    background-color: #424242;  
+.footer-container {
+    background-color: #424242;
     height: 60px;
-   
-    
-    
+
+
+
 }
 
 .my-row {
     display: flex;
     position: relative;
-    
-    
-    
-    
-    
+
+
+
+
+
 }
 
-.row-1{
+.row-1 {
     width: calc(100% / 3);
-    text-align: center;
-    display: flex;
-    
-    padding: 10px 0;
-}
-
-.row-3{
-    
-    text-align: center;
-    display: flex;
-    
-    
-}
-
-.row-2{  
     display: flex;
     padding: 10px 0;
-   
-
 }
 
-.left{
+
+.left {
     width: 40px;
     text-align: center;
     color: white;
     font-size: 15pt;
-    
+
 }
 
-.left-2{
+.left-2 {
     width: 40px;
     text-align: center;
     color: white;
     font-size: 15pt;
     padding-left: 10px;
-    
+
 }
 
 
-.than{
+.than {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,55 +154,50 @@ footer
 }
 
 
-span{
+span {
     display: block;
     color: white;
     font-size: 7pt;
-    
-    text-align: center;
-   
-    
+
 }
 
 
 
-.row-2{  
+.row-2 {
     display: flex;
     padding: 10px 0;
-    
+
 }
 
 
-.center-icon{
+.center-icon {
     width: 40px;
     text-align: center;
     color: white;
     font-size: 15pt;
-    
-    
+
+
 }
 
 
-.share{
+.share {
     width: 40px;
     text-align: center;
     color: lightgreen;
     font-size: 15pt;
     padding-left: 10px;
-    
+
 }
 
-.end span{
+.end span {
     background-color: #777880;
     height: 54px;
     width: 90px;
     position: absolute;
     right: 0;
-    color: red;  
-    line-height: ;
+    color: red;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
 
+}
